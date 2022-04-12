@@ -1,0 +1,22 @@
+.footer {
+  align-items: center;
+  bottom: 0;
+  background-color: $silver;
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+}
+
+.footer__description {
+  color: $black;
+}
+
+.footer__rights {
+  font-size: 0.7rem;
+}
+
+.footer__copy {
+  font-size: 1.1rem;
+}

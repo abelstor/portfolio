@@ -1,0 +1,89 @@
+// ====================================== //
+// =============== Inicio =============== //
+// ====================================== //
+
+.home__content {
+  align-items: center;
+  background-color: $tertiary;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 110px);
+  justify-content: center;
+}
+
+.home__image {
+  background-image: url("../../assets/images/abel.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: multiply;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.home__perfil {
+  text-align: center;
+  padding: 0 12px;
+  margin-top: 20px;
+
+  &-name {
+    color: $secondary;
+    font-size: 3rem;
+  }
+
+  &-text {
+    color: $secondary;
+    font-size: 1.5rem;
+  }
+
+  &-icons {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.fab {
+  color: $secondary;
+  font-size: 1.8em;
+  width: 30px;
+  height: 30px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .home__perfil-icons li:first-child {
+    padding-left: 0;
+  }
+
+  .home__content {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .home__perfil {
+    text-align: right;
+    padding: 0;
+    max-width: 400px;
+    margin-right: 40px;
+  }
+  .home__image {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+  }
+}
