@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.95768f6f.css",
+    "main.js": "/portfolio/static/js/main.338d3933.js",
+    "static/media/comicApp.gif": "/portfolio/static/media/comicApp.cb13e60a338c38d20a5c.gif",
+    "static/media/yougif.gif": "/portfolio/static/media/yougif.e12b7f8a885642749d52.gif",
+    "static/media/recetas.gif": "/portfolio/static/media/recetas.48c83b480cf82b19ba45.gif",
+    "static/media/blackjack.gif": "/portfolio/static/media/blackjack.ff5d2593f30185448658.gif",
+    "static/media/encryptor.gif": "/portfolio/static/media/encryptor.29dfbb5c8192c27701ff.gif",
+    "static/media/piano.jpeg": "/portfolio/static/media/piano.102a8ddf285ca3b05e0f.jpeg",
+    "static/media/abel.jpeg": "/portfolio/static/media/abel.96289d8945af1ab1ea6e.jpeg",
+    "static/media/bg.png": "/portfolio/static/media/bg.d47f13533732d546f145.png",
+    "static/media/hangman.png": "/portfolio/static/media/hangman.2c40196f5411a077de4b.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.c1783be347827c2dfef7.png",
+    "index.html": "/portfolio/index.html",
+    "main.95768f6f.css.map": "/portfolio/static/css/main.95768f6f.css.map",
+    "main.338d3933.js.map": "/portfolio/static/js/main.338d3933.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95768f6f.css",
+    "static/js/main.338d3933.js"
+  ]
+}
