@@ -111,7 +111,7 @@ export const Portfolio = () => {
                         <div className="card__body">
                             <a href="https://abelstor.github.io/encryptor-alura-challenge/"
                                 target="blank">
-                                <h4 className="card__body-title">Comic App</h4>
+                                <h4 className="card__body-title">Encryptor</h4>
                             </a>
                             <a
                                 href="https://github.com/abelstor/encryptor-alura-challenge"
