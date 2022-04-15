@@ -16,7 +16,7 @@ export const Home = () => {
                         <a href="{{ site.twitter_path }}" target="blank"><i className="fab fa-twitter"></i></a>
                     </li> */}
                     <li>
-                        <a href="https://wa.me/573028289094/?text=Hola%21%20deseo%20crear%20mi%20p%C3%A1gina%20web%20" target="blank"><i className="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/573028289084/?text=Hola%21%20deseo%20crear%20mi%20p%C3%A1gina%20web%20" target="blank"><i className="fab fa-whatsapp"></i></a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/abelstor" target="blank"><i className="fab fa-instagram"></i></a>

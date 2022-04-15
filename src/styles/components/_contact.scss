@@ -91,6 +91,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .contact {
+    height: calc(100vh - 120px);
     justify-content: space-around;
     display: flex;
     flex-direction: row;

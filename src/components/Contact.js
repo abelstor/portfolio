@@ -6,12 +6,12 @@ export const Contact = () => {
                 <div className="contact__left">
                     <div className="contact__left-info">
                         <div className="contact__left-details">
-                            <h4
+                            <h2
                                 style={{ marginBottom: "10px" }}
                                 className="contact__title"
                             >
                                 Contacto
-                            </h4>
+                            </h2>
                             <p
                                 style={{ marginBottom: "10px" }}>
                                 Si deseas comunicarte conmigo, no dudes en hacerlo a través de los siguientes medios.
@@ -51,9 +51,9 @@ export const Contact = () => {
                 </div>
                 <div className="contact__right">
                     <div className="contact__right-form">
-                        <h4 style={{ marginLeft: "20px" }}
+                        <h2 style={{ marginLeft: "20px" }}
                             className="contact__title">
-                            Form</h4>
+                            Form</h2>
                         <form action="https://formspree.io/abelstorg@gmail.com"
                             method="POST"
                             className="contact__right-form">

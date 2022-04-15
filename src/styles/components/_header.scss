@@ -1,6 +1,6 @@
 .header__container {
   align-items: center;
-  background-color: $silver;
+  background-color: $tertiary;
   display: flex;
   height: 60px;
   justify-content: space-between;
@@ -45,7 +45,7 @@
 }
 
 .header__nav-links {
-  background-color: $silver;
+  background-color: $tertiary;
   display: flex;
   flex-direction: column;
   width: 70%;

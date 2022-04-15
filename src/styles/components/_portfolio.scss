@@ -10,7 +10,7 @@
 .portfolio__title {
   color: $secondary;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -33,13 +33,13 @@
   &:hover {
     box-shadow: 5px 5px 0 $black;
     .card__body-title {
-      color: $secondary;
+      color: $blue;
     }
     .card__body-text {
-      color: $silver;
+      color: $blue;
     }
     .card__header {
-      background-color: lighten($silver, 10%);
+      background-color: $blue;
     }
   }
   overflow: hidden;

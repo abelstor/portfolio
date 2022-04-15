@@ -11,7 +11,7 @@ export const Portfolio = () => {
         <div className="portfolio__content">
             <div className="container">
                 <div className="portfolio__title">
-                    <h1>Portafolio</h1>
+                    <h2>Portafolio</h2>
                 </div>
                 <div className="portfolio__cards">
 
