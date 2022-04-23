@@ -1,5 +1,5 @@
 // ====================================== //
-// ===== Portafolio Index =============== //
+// ========= Portafolio Index =========== //
 // ====================================== //
 
 .portfolio__content {
@@ -31,13 +31,7 @@
   transition: all 0.2s linear;
 
   &:hover {
-    box-shadow: 5px 5px 0 $black;
-    .card__body-title {
-      color: $blue;
-    }
-    .card__body-text {
-      color: $blue;
-    }
+    box-shadow: 5px 5px 0 $blue;
     .card__header {
       background-color: $blue;
     }
@@ -64,18 +58,23 @@
   text-align: center;
 
   &-title {
+    color: $secondary;
     font-size: 1.5rem;
-    color: $black;
     margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: $blue;
+      transform: scale(1.1);
+    }
   }
 
   &-text {
     color: $secondary;
-    font-size: 1.05rem;
+    font-size: 1.07rem;
     transition: all 0.2s ease-in-out;
     &:hover {
-      font-size: bold;
-      transform: scale(1.2);
+      color: $blue;
+      transform: scale(1.1);
     }
   }
 }

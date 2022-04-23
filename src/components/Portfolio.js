@@ -31,8 +31,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/comic-app"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>
@@ -52,8 +52,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/recetas"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/YouGif"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/hangman-alura-challenge"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>
@@ -115,8 +115,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/encryptor-alura-challenge"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>
@@ -136,8 +136,8 @@ export const Portfolio = () => {
                             </a>
                             <a
                                 href="https://github.com/abelstor/BlackJack"
-                                target="blank"
-                                className="card__body-text">Repositorio
+                                target="blank">
+                                <p className="card__body-text">Repositorio</p>
                             </a>
                         </div>
                     </div>

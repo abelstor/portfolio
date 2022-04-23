@@ -6,32 +6,31 @@ export const Contact = () => {
                 <div className="contact__left">
                     <div className="contact__left-info">
                         <div className="contact__left-details">
-                            <h2
-                                style={{ marginBottom: "10px" }}
-                                className="contact__title"
-                            >
+                            <h2 style={{ marginBottom: "10px" }} className="contact__title">
                                 Contacto
                             </h2>
                             <p
                                 style={{ marginBottom: "10px" }}>
                                 Si deseas comunicarte conmigo, no dudes en hacerlo a través de los siguientes medios.
                             </p>
-                            <i
-                                className="fas fab fa-mobile-alt">
-                            </i>
-                            <span
-                                style={{ marginLeft: "5px" }}>
-                                Teléfono
-                            </span>
-                            <p>+57 302 8289084</p>
-                            <i
-                                className="far fab fa-envelope">
-                            </i>
-                            <span
-                                style={{ marginLeft: "10px" }}>
-                                Email
-                            </span>
-                            <p>abelstor@gmail.com</p>
+
+                            <div className="mt-5">
+                                <p>
+                                    <a href="tel:+573028289084">
+                                        <i className="mb-5 fas fab fa-mobile-alt"></i>
+                                    </a>
+                                    +57 302 8289084
+                                </p>
+                            </div>
+
+                            <div className="mt-3 mb-3">
+                                <p>
+                                    <a href="mailto:abelstor@gmail.com">
+                                        <i className="mb-5 far fab fa-envelope"></i>
+                                    </a>
+                                    abelstor@gmail.com
+                                </p>
+                            </div>
                         </div>
                         <ul className="contact__left-icons">
                             <li>
