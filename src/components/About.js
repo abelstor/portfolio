@@ -1,11 +1,12 @@
 
 export const About = () => {
+
     return (
         <div className="about__content">
-            <div className="about-wrapper container">
-                <div className="about-left">
+            <div className="about__wrapper container">
+                <div className="about__left">
                     <p className="about__legend">
-                        Hola! Mi nombre es Abel Cañas, soy desarrollador web, vivo en Bogotá Colombia y actualmente estoy cursando el programa
+                        Hola! Mi nombre es Abel Cañas, soy desarrollador web y vivo en Bogotá Colombia; actualmente estoy cursando el programa
                         <a
                             href="https://www.oracle.com/ar/education/oracle-next-education/"
                             target="blank">  ONE – Oracle Next Education
@@ -25,7 +26,7 @@ export const About = () => {
                         </a>
                     </p>
                 </div>
-                <div className="about-right"></div>
+                <div className="about__right"></div>
             </div>
         </div>
     )

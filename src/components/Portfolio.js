@@ -14,7 +14,6 @@ export const Portfolio = () => {
                     <h2>Portafolio</h2>
                 </div>
                 <div className="portfolio__cards">
-
                     <div className="portfolio__card">
                         <div className="card__header">
                             <a
@@ -141,7 +140,6 @@ export const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

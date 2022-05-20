@@ -12,7 +12,6 @@
 .contact {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
 }
 
 .contact__title {
@@ -71,30 +70,13 @@
   width: 100%;
 }
 
-.contact__right-form {
-  font-size: 1.5rem;
-  padding: 20px;
-  // background-color: $tertiary;
-  .btn {
-    width: 30%;
-  }
-}
-
-.contact__right-form input,
-.contact__right-form form textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid $dark_grey;
-  margin-bottom: 2em;
-}
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .contact {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 190px);
     justify-content: space-around;
     display: flex;
+    padding-top: 5rem;
     flex-direction: row;
   }
   .contact__left {

@@ -1,3 +1,4 @@
+import { ContactForm } from "./ContactForm"
 
 export const Contact = () => {
     return (
@@ -49,34 +50,7 @@ export const Contact = () => {
                     </div>
                 </div>
                 <div className="contact__right">
-                    <div className="contact__right-form">
-                        <h2 style={{ marginLeft: "20px" }}
-                            className="contact__title">
-                            Form</h2>
-                        <form action="https://formspree.io/abelstorg@gmail.com"
-                            method="POST"
-                            className="contact__right-form">
-                            <div className="form-group">
-                                {/* <label for="name">Nombre</label> */}
-                                <input type="text" className="form-control" name="name" aria-describedby="name" placeholder="Nombre" />
-                            </div>
-                            <div className="form-group">
-                                {/* <label for="exampleInputEmail1">Email</label> */}
-                                <input type="email" name="_replyto" className="form-control" aria-describedby="emailHelp" placeholder="Email" />
-                            </div>
-                            <div className="form-group">
-                                {/* <label for="comment">Commentario:</label> */}
-                                <textarea name="message" placeholder="Mensage" className="form-control" rows="4" id="comment"></textarea>
-                            </div>
-                            <div className="form-group">
-                                <label>
-                                    <button type="submit" value="Send" className="btn pointer">
-                                        Enviar
-                                    </button>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
+                    <ContactForm />
                 </div>
             </section>
         </div>

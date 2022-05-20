@@ -8,13 +8,13 @@
   background-color: $tertiary;
 }
 
-.about-wrapper {
+.about__wrapper {
   // height: calc(100vh - 110px);
   display: flex;
   flex-direction: column;
   background-color: $tertiary;
 }
-.about-left {
+.about__left {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -33,7 +33,7 @@
   }
 }
 
-.about-right {
+.about__right {
   background-image: url("../../assets/images/piano.jpeg");
   background-size: cover;
   width: 100%;
@@ -43,14 +43,14 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .about-wrapper {
+  .about__wrapper {
     flex-direction: row;
   }
-  .about-left {
+  .about__left {
     height: 500px;
     padding: 0 50px;
   }
-  .about-right {
+  .about__right {
     background-image: url("../../assets/images/piano.jpeg");
     background-size: cover;
     height: calc(100vh - 110px);
